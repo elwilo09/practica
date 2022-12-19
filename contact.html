@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="image/logo-homies.ico" />
+  <title>HOMIES ACADEMY</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <div class="logo">
+    <a href="#">
+      <img src="image/logo-homies.png" width="100px" height="100px" alt="logo-homies" />
+    </a>
+    <h1 id="site-name">HOMIES ACADEMY</h1>
+  </div>
+  <div class="content">
+
+    <nav class="navbar">
+      <a href="index.html">Inicio</a>
+      <a href="about.html">Acerca de</a>
+      <a href="contact.html">Contacto</a>
+    </nav>
+  </div>
+  <article>
+    <section class="content-about">
+      <h1>
+        Contactanos
+      </h1>
+      <form method="POST" action="mailto:wherrera3@utmachala.edu.ec" enctype="text/plain" target="_blank">
+        <fieldset>
+          <p>
+            <label for="nombre">Nombres</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required pattern="[A-Za-z]+"
+              required />
+          </p>
+          <p>
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tú Apellido" required
+              pattern="[A-Za-z]+" required />
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="example@gmail.com" required />
+          </p>
+          <p class="block">
+            <label for="Mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" rows="3" placeholder="Dejanos tú mensaje..." minlength="5"></textarea>
+          </p>
+          <br />
+          <p class="button">
+            <button type="submit">Enviar</button>
+          </p>
+        </fieldset>
+
+      </form>
+    </section>
+  </article>
+  <!-- footer -->
+  <footer>
+    <div class="footer-bottom">
+      <p>
+        copyright &copy; 2022 HOMIES ACADEMY
+        <!-- designed by <span style="text-transform: uppercase; opacity: .4; font-weight: 200;">Wilson</span> -->
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
